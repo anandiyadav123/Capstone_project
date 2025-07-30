@@ -11,7 +11,7 @@ with open('df.pkl','rb') as file:
 with open('pipeline.pkl','rb') as file:
     pipeline=pickle.load(file)
 
-df
+st.title("Price Predictor")
 
 st.header("Enter your inputs")
 
